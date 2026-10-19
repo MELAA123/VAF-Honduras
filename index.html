@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#606b48">
+  <meta name="description" content="Sitio informativo de Viviendo en Amor y Fe (VAF), Honduras.">
+  <title>Viviendo en Amor y Fe | VAF</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="VAF, ir al inicio">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span class="brand-copy">
+          <strong>Viviendo en Amor y Fe</strong>
+          <small>VAF · Honduras</small>
+        </span>
+      </a>
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#iglesia">Nuestra iglesia</a>
+        <a href="#ministerios">Actividades</a>
+        <a href="#visitanos">Horarios y ubicación</a>
+        <a href="#galeria">Galería</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero section" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow">VIVIENDO EN AMOR Y FE · HONDURAS</p>
+        <h1>Una comunidad que vive la fe y el amor de Cristo.</h1>
+        <p class="hero-lead">Un espacio para mantenernos conectados, compartir nuestra vida como iglesia y estar al tanto de las actividades de nuestra comunidad.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#ministerios">Ver actividades <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#iglesia">Conocer VAF <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-note"><span class="note-dot"></span> Fe que se comparte. Comunidad que acompaña.</div>
+      </div>
+      <div class="hero-art">
+        <!-- Cuando tengan una fotografía propia, guárdenla como images/portada.jpg -->
+        <img class="hero-photo" src="images/portada.jpg" alt="Fotografía de la iglesia Viviendo en Amor y Fe"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="photo-placeholder hero-placeholder" style="display:none">
+          <span class="placeholder-icon" aria-hidden="true">✦</span>
+          <strong>Una fotografía de VAF</strong>
+          <span>Reemplazá este espacio con una foto real de la iglesia.</span>
+        </div>
+        <div class="hero-stamp"><span>VAF</span><small>Comunidad<br>y fe</small></div>
+      </div>
+      <div class="hero-bottom" aria-hidden="true">
+        <span>CRECER</span><span>COMPARTIR</span><span>SERVIR</span>
+      </div>
+    </section>
+
+    <section class="welcome section section-soft">
+      <div class="container welcome-grid">
+        <div>
+          <p class="eyebrow">QUÉ BUENO TENERTE AQUÍ</p>
+          <h2>La vida de iglesia también se construye <em>juntos.</em></h2>
+        </div>
+        <div class="welcome-text">
+          <p>Este sitio reúne información útil para nuestra comunidad: quiénes somos, qué actividades compartimos, nuestros horarios y recuerdos de momentos especiales.</p>
+          <p>Queremos que sea un punto de encuentro sencillo, cálido y fácil de consultar desde el celular.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="iglesia">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">NUESTRA COMUNIDAD</p>
+            <h2>Conocé nuestra iglesia</h2>
+          </div>
+          <p class="heading-side">Nuestra historia, identidad y creencias nos ayudan a recordar el camino que compartimos.</p>
+        </div>
+        <div class="identity-grid">
+          <article class="identity-card identity-main">
+            <div class="identity-number">01 / QUIÉNES SOMOS</div>
+            <h3>Una comunidad de fe</h3>
+            <p>Viviendo en Amor y Fe es una comunidad cristiana que busca vivir y compartir el Evangelio integral de Jesucristo. Creemos que la fe también se expresa en nuestra manera de vivir, amar y relacionarnos con los demás.</p>
+          </article>
+          <article class="identity-card">
+            <div class="identity-number">02 / NUESTRA HISTORIA</div>
+            <h3>Un camino compartido</h3>
+            <p>Aquí compartiremos los momentos importantes de la historia de VAF, sus inicios y las personas que han formado parte de esta comunidad.</p>
+            <span class="edit-note">Pendiente: agregar historia oficial.</span>
+          </article>
+          <article class="identity-card">
+            <div class="identity-number">03 / LO QUE CREEMOS</div>
+            <h3>Fe que guía nuestra vida</h3>
+            <p>En esta sección se presentarán los fundamentos bíblicos y las creencias que la iglesia reconoce oficialmente.</p>
+            <span class="edit-note">Pendiente: revisar con los responsables de la iglesia.</span>
+          </article>
+        </div>
+        <div class="quote-strip">
+          <span class="quote-mark" aria-hidden="true">“</span>
+          <p>Que todo lo que hagamos refleje amor, fe y cuidado por nuestra comunidad.</p>
+          <span class="quote-attribution">UN RECORDATORIO PARA CAMINAR JUNTOS</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-olive" id="ministerios">
+      <div class="container">
+        <div class="section-heading section-heading-light">
+          <div>
+            <p class="eyebrow">VIDA DE IGLESIA</p>
+            <h2>Actividades y ministerios</h2>
+          </div>
+          <p class="heading-side">Un espacio para conocer las actividades, participar y servir según los dones de cada persona.</p>
+        </div>
+        <div class="activity-grid">
+          <article class="activity-card">
+            <span class="activity-icon" aria-hidden="true">✳</span>
+            <p class="activity-label">APRENDER</p>
+            <h3>Escuela dominical</h3>
+            <p>Enseñanza bíblica y aprendizaje de la fe para nuestra comunidad.</p>
+            <span class="activity-meta">Horario por confirmar</span>
+          </article>
+          <article class="activity-card">
+            <span class="activity-icon" aria-hidden="true">☼</span>
+            <p class="activity-label">COMPARTIR</p>
+            <h3>Jóvenes</h3>
+            <p>Encuentros, crecimiento, convivencia y momentos para compartir.</p>
+            <span class="activity-meta">Horario por confirmar</span>
+          </article>
+          <article class="activity-card">
+            <span class="activity-icon" aria-hidden="true">♡</span>
+            <p class="activity-label">SERVIR</p>
+            <h3>Servicio y comunidad</h3>
+            <p>Actividades y oportunidades para colaborar y cuidar de quienes nos rodean.</p>
+            <span class="activity-meta">Más información próximamente</span>
+          </article>
+        </div>
+        <p class="section-footnote">Estos son ejemplos iniciales. Confirmá cuáles son los ministerios oficiales antes de publicar esta sección.</p>
+      </div>
+    </section>
+
+    <section class="section" id="visitanos">
+      <div class="container visit-grid">
+        <div class="visit-copy">
+          <p class="eyebrow">PLANIFICÁ TU VISITA</p>
+          <h2>Horarios y ubicación</h2>
+          <p>En esta sección encontrarás la información necesaria para participar en nuestras reuniones y actividades.</p>
+          <div class="info-card">
+            <div class="info-icon" aria-hidden="true">◷</div>
+            <div><strong>Horarios de reunión</strong><p>Los horarios están pendientes de confirmación por parte de la iglesia.</p></div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon" aria-hidden="true">⌖</div>
+            <div><strong>Cómo llegar</strong><p>Agregá aquí la dirección confirmada y un enlace al mapa con el punto exacto de entrada.</p></div>
+          </div>
+          <p class="edit-note">Antes de publicar, sustituí estos textos por la información oficial.</p>
+        </div>
+        <div class="visit-art">
+          <div class="map-illustration" aria-hidden="true">
+            <span class="map-line line-one"></span><span class="map-line line-two"></span><span class="map-line line-three"></span>
+            <span class="map-pin">⌖</span>
+            <span class="map-label">VAF · HONDURAS</span>
+          </div>
+          <div class="visit-caption">
+            <span class="caption-leaf" aria-hidden="true">✳</span>
+            <div><strong>Nos alegra compartir este camino.</strong><p>Pronto encontrarás aquí los detalles para visitarnos.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="galeria">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">MOMENTOS QUE CONSERVAMOS</p>
+            <h2>Nuestra historia en imágenes</h2>
+          </div>
+          <p class="heading-side">Cultos, celebraciones y pequeños recuerdos que forman parte de nuestra vida como iglesia.</p>
+        </div>
+        <div class="gallery-grid">
+          <button class="gallery-item gallery-large" type="button" data-image="images/galeria-1.jpg" data-caption="Un momento de nuestra comunidad">
+            <img src="images/galeria-1.jpg" alt="Fotografía de una actividad de VAF" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <span class="photo-placeholder" style="display:none"><span>01</span><strong>Actividad de la iglesia</strong><small>Agregá images/galeria-1.jpg</small></span>
+            <span class="gallery-caption">Nuestra comunidad <span>↗</span></span>
+          </button>
+          <button class="gallery-item" type="button" data-image="images/galeria-2.jpg" data-caption="Encuentros y convivencia">
+            <img src="images/galeria-2.jpg" alt="Fotografía de un encuentro de VAF" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <span class="photo-placeholder" style="display:none"><span>02</span><strong>Encuentros</strong><small>Agregá images/galeria-2.jpg</small></span>
+            <span class="gallery-caption">Encuentros <span>↗</span></span>
+          </button>
+          <button class="gallery-item" type="button" data-image="images/galeria-3.jpg" data-caption="Celebraciones especiales">
+            <img src="images/galeria-3.jpg" alt="Fotografía de una celebración de VAF" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <span class="photo-placeholder" style="display:none"><span>03</span><strong>Celebraciones</strong><small>Agregá images/galeria-3.jpg</small></span>
+            <span class="gallery-caption">Celebraciones <span>↗</span></span>
+          </button>
+          <button class="gallery-item" type="button" data-image="images/galeria-4.jpg" data-caption="Recuerdos de nuestra iglesia">
+            <img src="images/galeria-4.jpg" alt="Fotografía de un recuerdo de VAF" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <span class="photo-placeholder" style="display:none"><span>04</span><strong>Recuerdos</strong><small>Agregá images/galeria-4.jpg</small></span>
+            <span class="gallery-caption">Recuerdos <span>↗</span></span>
+          </button>
+        </div>
+        <p class="gallery-note">Las fotografías deben contar con autorización para su publicación. Especialmente cuando aparezcan menores de edad.</p>
+      </div>
+    </section>
+
+    <section class="closing section">
+      <div class="container closing-inner">
+        <span class="closing-symbol" aria-hidden="true">✳</span>
+        <p class="eyebrow">VIVIENDO EN AMOR Y FE</p>
+        <h2>Seguimos construyendo comunidad.</h2>
+        <p>Un espacio para informarnos, recordar y compartir la vida de nuestra iglesia.</p>
+        <a class="button button-light" href="#inicio">Volver al inicio ↑</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="#inicio">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span class="brand-copy"><strong>Viviendo en Amor y Fe</strong><small>VAF · Honduras</small></span>
+      </a>
+      <p>Un sitio informativo de nuestra comunidad.</p>
+      <span class="copyright">© <span id="year"></span> VAF</span>
+    </div>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Vista ampliada de fotografía">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Cerrar fotografía">×</button>
+    <img id="lightbox-image" src="" alt="">
+    <p id="lightbox-caption"></p>
+  </dialog>
+</body>
+</html>
